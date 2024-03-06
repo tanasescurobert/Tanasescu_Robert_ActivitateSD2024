@@ -102,12 +102,12 @@ void main() {
 
 	struct Locuinta* locuinte = NULL;
 	int dim = 3;
-	citireDinFisier("locuinte.txt", &locuinte, &dim);
-	printf("Vector initial:\n\n");
+	citireDinFisier("Seminar3.txt", &locuinte, &dim);
+	printf("Vector initial:\n");
 	afisareVectorLocuinte(locuinte, dim);
 
-	stergeLocuinta(&locuinte, &dim, 17);
-	printf("Vector modificat:\n\n");
+	stergeLocuinta(&locuinte, &dim, 3);
+	printf("\nVector modificat:\n");
 	afisareVectorLocuinte(locuinte, dim);
 
 }
