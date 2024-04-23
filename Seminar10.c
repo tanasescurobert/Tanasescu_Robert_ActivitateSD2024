@@ -115,7 +115,7 @@ int nrFilmeRedate(Nod* rad) {
 
 void main() {
 	Nod* arbore = NULL; 
-	arbore = citireDinFisier("Text.txt");
+	arbore = citireDinFisier("Seminar10.txt");
 	
 	printf("\n-----PREORDINE-----\n");
 	afisareArborePreordine(arbore);
